@@ -13,6 +13,10 @@ namespace TypesAndVariables
         {
             bool isMale = true;
             Console.WriteLine(isMale);
+            
+
+            bool isFemale = false;
+            Console.WriteLine(isFemale);
         }
     }
 }
