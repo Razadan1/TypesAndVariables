@@ -1,5 +1,5 @@
-﻿// using TypesAndVariables;
-// using TypesAndVariables.obj;
+﻿using TypesAndVariables;
+using TypesAndVariables.obj;
 // // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Types and Variables");
 // Console.WriteLine("Hello, World!");
@@ -46,12 +46,14 @@
 // Exercise9 exercise9 = new Exercise9();
 // exercise9.solveExercise9();
 
-using TypesAndVariables.obj;
-
+// Console.WriteLine("\n\n Exercise 10");
 Excercise10 excercise10 = new Excercise10();
 excercise10.solveExcersice10();
-// // // 11. Write a program that prints on the console isosceles triangle which 
-// // // sides consist of the copyright character "©". 
+
+Console.WriteLine("\n\n Exercise 10");
+Exercise11 exercise11 = new Exercise11();
+exercise11.solveExercise11();
+
 // // // 12. A company dealing with marketing wants to keep a data record of its 
 // // // employees. Each record should have the following characteristic – first 
 // // // name, last name, age, gender (‘m’ or ‘f’) and unique employee number 
