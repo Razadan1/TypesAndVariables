@@ -50,15 +50,11 @@ using TypesAndVariables.obj;
 Excercise10 excercise10 = new Excercise10();
 excercise10.solveExcersice10();
 
-Console.WriteLine("\n\n Exercise 10");
+Console.WriteLine("\n\n Exercise 11");
 Exercise11 exercise11 = new Exercise11();
 exercise11.solveExercise11();
 
-// // // 12. A company dealing with marketing wants to keep a data record of its 
-// // // employees. Each record should have the following characteristic – first 
-// // // name, last name, age, gender (‘m’ or ‘f’) and unique employee number 
-// // // (27560000 to 27569999). Declare appropriate variables needed to 
-// // // maintain the information for an employee by using the appropriate data 
-// // // types and attribute names. 
-// // // 13. Declare two variables of type int. Assign to them values 5 and 10 
-// // // respectively. Exchange (swap) their values and print them.
+Console.WriteLine("Exercise 12");
+Exercise12 exercise12 = new Exercise12();
+exercise12.solveExercise12();
+// // 
