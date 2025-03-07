@@ -12,8 +12,9 @@ namespace TypesAndVariables.obj
         // // In one of the variables use quoted string and in the other do not use it.
         public void solveExercise9()
         {
-            string str = "the";
-            Console.WriteLine(str);
+            string str = "The \"use\" of quotations causes difficulties.";
+            string str2 = "The 'use' of quotations causes difficulties.";
+            Console.WriteLine($"The use of double quoted string: {str} \n The use of single quoted string: {str2}");
         }
     }
 }
